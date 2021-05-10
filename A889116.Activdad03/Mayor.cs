@@ -10,7 +10,7 @@ namespace A889116.Activdad03
     class Mayor
     {
         private static readonly Dictionary<int, Cuenta> entradasC;
-        private static readonly Dictionary<int, Asientos> entradasA;
+     
         const string nombreArchivo = "Mayor.txt";
 
 
@@ -18,7 +18,7 @@ namespace A889116.Activdad03
         {
 
             entradasC = new Dictionary<int, Cuenta>();
-            entradasA = new Dictionary<int, Asientos>();
+            
 
             if (File.Exists(nombreArchivo))
             {
